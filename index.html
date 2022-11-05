@@ -10,50 +10,52 @@
     <title>Alexander Carter's Portfolio</title>
 </head>
 <body>
-    <header class="header">
-      <div class="flex" id="flex">
-        <div class="profile">
-            <img class="img-me" src="https://ca.slack-edge.com/T0351JZQ0-U045HAN8EGZ-c57ba660e36d-512" alt="pic of me outside" class="img-circle">
-            <h1 class="name">Alexander Carter</h1>
-            <div class="social">
-                <a class="social-icon" href="https://twitter.com/Darkcosmic32" target="_blank">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-                <a class="social-icon" href="https://www.facebook.com/profile.php?id=100085966442048" target="_blank">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-                <a class="social-icon" href="https://www.instagram.com/alex_dc03/" target="_blank">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </a>
+    <header id="header" class="header">
+        <nav id="navbar" class="nav-menu">
+            <!-- Side navigation -->
+            <div id="menu" class="sidenav d-flex flex-column">
+                <img class="img-me img-fluid rounded-circle" src="https://ca.slack-edge.com/T0351JZQ0-U045HAN8EGZ-c57ba660e36d-512" alt="pic of me outside" class="img-circle">
+                <div id="flex">
+                    <div class="profile">
+                        <h1 class="name">Alexander Carter</h1>
+                        <div class="social-links mt-3 text-center">
+                            <a class="social-icon" href="https://twitter.com/Darkcosmic32" target="_blank">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                            <a class="social-icon" href="https://www.facebook.com/profile.php?id=100085966442048" target="_blank">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                            <a class="social-icon" href="https://www.instagram.com/alex_dc03/" target="_blank">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                            <a class="social-icon" href="https://www.linkedin.com/feed/" target="_blank">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                            <a class="social-icon" href="https://github.com/Alexc-stack/My-Portfolio" target="_blank">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+                <a href="#home">Home</a>
+               <a href="#about">About Me</a>
+               <a href="#resume">Resume</a>
             </div>
-            <nav id="navbar" class="nav-menu">
-                <ul>
-                    <li>
-                       <p>Home</p>
-                    </li>
-                    <li>
-                        <p>About Me</p>
-                    </li>
-                    <li>
-                        <p>Resume</p>
-                    </li>
-                    <li>
-                        <p>Contact</p>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-      </div>
+        </nav>
+
+        <!-- Page content -->
     </header>
-    <section class="hero">
-        <div class="hero-container">
-            <h1>Alexander Carter</h1>
-            <p>I'm a developer<p>
-        </div>
-    </section>
+   
     <main class="main">
+        <section class="home" id="home">
+            <div class="home-container">
+                <a class="menu-btn" id="menu-btn"><ion-icon name="menu-outline"></ion-icon></a>
+                <h1>Alexander Carter</h1>
+                <p>I'm a developer<p>
+            </div>
+        </section>
         <section id="about" class="about">
-            <div class="container">
+            <div class="container-1">
                 <div class="section-title">
                     <h2>About Me</h2>
                     <p>I like being active, anthing to get me activited is a go! I like being outside (walks, runs, parks, Basketball courts, lakes an swamps). Ima a huge basketball fan, I wouldnt pass up a chance to go to a Orlando magic game but sports fan in general. I have also been in every state in the US exept North datkota due to my previous career as a semi truck driver. It was a great experence I wouldnt take it back for nothing</p>
@@ -61,7 +63,7 @@
             </div>
         </section>
         <section id="resume" class="resume">
-            <div class="container">
+            <div class="container-1">
                 <div class="section-title">
                     <h2>Resume</h2>
                 </div>
@@ -125,6 +127,18 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container-1">
+            <div class="email">
+                <p>
+                    <b>carteralexander011@gmail.com</b>
+                </p>
+                <p>
+                    <b>904-755-1406</b>
+                </p>
+            </div>
+        </div>
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
