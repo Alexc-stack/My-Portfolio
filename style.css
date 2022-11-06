@@ -98,6 +98,10 @@ body {
     display: block;
     width: 120px;
     border: 8px solid #2c2f3f;
+    border-radius: 50%!important;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 
 .rounded-circle {
