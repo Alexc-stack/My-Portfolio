@@ -1,5 +1,4 @@
 body {
-    background-image: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg");
     background-color: darkgrey;
 }
 
@@ -85,6 +84,23 @@ img {
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+  }
+
+  .psection {
+    background-color: aliceblue;
+    margin-bottom: 300px;
+  }
+
+  .bio {
+    background-color: darkgray;
+    height: 800px;
+    margin-top: 300px;
+  }
+
+  .aboutme {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 200px;
   }
 
  .carousel-text {
@@ -176,15 +192,23 @@ img {
 }
 
 .rsection {
-    margin-top: 500px;
-}
-
-.resume {
     margin-top: 100px;
 }
 
+.resume {
+    text-align: center;
+    font-size: x-large;
+}
+
+.resume-item {
+    text-align: center;
+    font-size: x-large;
+}
+
+
 .csection {
     margin-top: 500px;
+    background-color: darkgray;
 }
 
 ul {
